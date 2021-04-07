@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bitcoin/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/bitcoin/static/js/main.988c13ac.chunk.js",
+    "main.js.map": "/bitcoin/static/js/main.988c13ac.chunk.js.map",
+    "runtime-main.js": "/bitcoin/static/js/runtime-main.5296183c.js",
+    "runtime-main.js.map": "/bitcoin/static/js/runtime-main.5296183c.js.map",
+    "static/js/2.54d541cc.chunk.js": "/bitcoin/static/js/2.54d541cc.chunk.js",
+    "static/js/2.54d541cc.chunk.js.map": "/bitcoin/static/js/2.54d541cc.chunk.js.map",
+    "static/js/3.dcdaedb9.chunk.js": "/bitcoin/static/js/3.dcdaedb9.chunk.js",
+    "static/js/3.dcdaedb9.chunk.js.map": "/bitcoin/static/js/3.dcdaedb9.chunk.js.map",
+    "index.html": "/bitcoin/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/bitcoin/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.54d541cc.chunk.js.LICENSE.txt": "/bitcoin/static/js/2.54d541cc.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/bitcoin/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5296183c.js",
+    "static/js/2.54d541cc.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.988c13ac.chunk.js"
+  ]
+}
