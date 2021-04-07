@@ -1,0 +1,47 @@
+.home {
+  &-wrapper {
+    display: flex;
+    //align-items: center;
+    justify-content: center;
+
+    min-width: 100vw;
+    min-height: 100vh;
+
+    background-color: rgb(245, 245, 245);
+  }
+
+  margin-top: 80px;
+  width: 100%;
+  max-width: 1200px;
+
+  .title {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .input {
+    margin-bottom: 20px;
+
+    label {
+      margin-bottom: 10px;
+      line-height: 30px;
+      font-weight: 600;
+    }
+    
+    input, textarea {
+      border: none;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    textarea {
+      width: 100%;
+    }
+
+    input {
+      min-width: 300px;
+    }
+    
+  }
+  
+}
