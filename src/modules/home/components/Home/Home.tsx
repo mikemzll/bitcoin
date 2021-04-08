@@ -78,8 +78,10 @@ const HomeComponent = () => {
         </div>
         <div>
           <InputComponent type="input" label={'Ключ'} placeholder={'ключове слово ...'} value={key} onChange={(e) => {updateKey((e.target as HTMLInputElement).value)}} />
-          <InputComponent label={'Текст'} placeholder={'сообщение ...'} value={input} onChange={(e) => {updateInput((e.target as HTMLInputElement).value)}} />
-          <InputComponent label={'Bitcoin'} placeholder={'выхлоп тут...'} value={output} onChange={(e) => {updateOutput((e.target as HTMLInputElement).value)}} />
+          <div>
+            <InputComponent label={'Текст'} placeholder={'сообщение ...'} value={input} onChange={(e) => {updateInput((e.target as HTMLInputElement).value)}} />
+            <InputComponent label={'Bitcoin'} placeholder={'выхлоп тут...'} value={output} onChange={(e) => {updateOutput((e.target as HTMLInputElement).value)}} />
+          </div>
         </div>
       </div>
     </div>
@@ -107,14 +109,13 @@ const InputComponent: FC<InputComponentProps> = ({
 }) => {
   return (
     <div className="input">
-      { label && (
-        <label htmlFor={id}>{label}</label>
-      )}
-      <div>
-        { type === 'textarea' && (
+      {label && <label htmlFor={id}>{label}</label>}
+
+      <div className="input-wrapper">
+        {type === 'textarea' && (
           <textarea id={id} cols={30} rows={10} placeholder={placeholder} value={value} onChange={onChange}></textarea>
         )}
-        { type === 'input' && (
+        {type === 'input' && (
           <input id={id} placeholder={placeholder} value={value} onChange={onChange} />
         )}
       </div>

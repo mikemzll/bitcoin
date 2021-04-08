@@ -1,10 +1,8 @@
 .home {
   &-wrapper {
     display: flex;
-    //align-items: center;
     justify-content: center;
 
-    min-width: 100vw;
     min-height: 100vh;
 
     background-color: rgb(245, 245, 245);
@@ -17,15 +15,23 @@
   .title {
     margin-bottom: 60px;
     text-align: center;
+    color: rgb(73, 73, 73);
   }
 
   .input {
     margin-bottom: 20px;
+    padding: 0 20px;
+
+    &-wrapper {
+      overflow: hidden;
+      border-radius: 8px;
+    }
 
     label {
       margin-bottom: 10px;
       line-height: 30px;
       font-weight: 600;
+      color: #c1c1c1;
     }
     
     input, textarea {
